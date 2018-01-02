@@ -1,0 +1,247 @@
+* {
+    margin: 1px;
+    /*background-color: #a1d1a9;*/
+    align-items: center;
+    align-content: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    box-sizing: border-box;
+    color: #ffffff;
+}
+
+.video-background {
+  background: #000;
+  position: fixed;
+  top: 0; right: 0; bottom: 0; left: 0;
+  z-index: -99;
+}
+
+.video-foreground,
+.video-background iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+#vidtop-content {
+	top: 0;
+	color: #fff;
+}
+
+.vid-info { position: absolute; top: 0; right: 0; width: 33%; background: rgba(0,0,0,0.3); color: #fff; padding: 1rem; font-family: Avenir, Helvetica, sans-serif; }
+.vid-info h1 { font-size: 2rem; font-weight: 700; margin-top: 0; line-height: 1.2; }
+.vid-info a { display: block; color: #fff; text-decoration: none; background: rgba(0,0,0,0.5); transition: .6s background; border-bottom: none; margin: 1rem auto; text-align: center; }
+
+@media (min-aspect-ratio: 16/9) {
+  .video-foreground { height: 300%; top: -100%; }
+}
+@media (max-aspect-ratio: 16/9) {
+  .video-foreground { width: 300%; left: -100%; }
+}
+@media all and (max-width: 600px) {
+.vid-info { width: 50%; padding: .5rem; }
+.vid-info h1 { margin-bottom: .2rem; }
+}
+@media all and (max-width: 500px) {
+.vid-info .acronym { display: none; }
+}
+
+
+
+
+
+
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 80px;
+    color: #FFFFFF;
+    font-style: oblique;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
+    font-weight: bold;
+
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+p {
+    font-size: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.error {
+    color: #FC605F;
+}
+
+/*-------welcome styling----------*/
+
+
+
+.registerFormInputs, .registerFormButton,
+.loginFormInputs, .loginFormButton,
+.button, .bioTextarea {
+    max-width: 100%;
+    background-color: rgba(107, 107, 107, 0.5);
+    align-items: center;
+    align-content: center;
+}
+
+input.color {
+    color: #000000;
+}
+
+.welcome-div {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+.big-title {
+    max-width: 30%;
+}
+
+.massive-title {
+    max-width: 65%;
+}
+.logo {
+    max-width: 250px;
+    width: 100%;
+    align-items: center;
+}
+
+.default-prof-pic {
+    width: 100%;
+    max-width: 200px;
+}
+
+ul, li, .nav {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 10px;
+}
+
+/*-------main app styling----------*/
+.app-header {
+    width: 100%;
+    display: inline-block;
+}
+
+.mini-logo {
+    width: 4%;
+    display: inline-block;
+}
+
+.navigation {
+    width: 90%;
+    display: inline-block;
+    text-align: center;
+}
+
+.mini-prof {
+    width: 4%;
+    /*overflow: hidden;*/
+    background-size: cover;
+    display: inline-block;
+}
+
+/*everything else*/
+.app-content{
+    width: 100%;
+}
+
+.header-icon{
+    width: 100%;
+    height: 100%;
+}
+
+
+/*----------prof page----------*/
+.profile {
+    display: flex;
+}
+
+.pic-in-profile {
+    width: 30%;
+}
+
+.prof-pic {
+    max-width: 200px;
+    max-height: 400px;
+    display:inline-block;
+}
+
+.bio-in-prof {
+    display:inline-block;
+    width: 30%;
+}
+
+.bioTextarea {
+    height: 200px;
+    width: 100px;
+    display:inline-block;
+}
+
+.bioForm {
+    width: 100px;
+    background-color: rgba(107, 107, 107, 0.5);
+}
+
+.bio-in-profile {
+
+}
+
+/*-----other prof page---------*/
+.pic-in-other-prof {
+    max-width: 200px;
+}
+
+/*------friends page-------*/
+.pending, .accepted {
+    max-width: 120px;
+    max-height: 300px;
+}
+
+ul {
+    display: inline-block;
+}
+.pending-img, .accepted-img {
+    max-width: 100px;
+}
+
+/*-------online page-------*/
+.online-div {
+    display: inline-block;
+}
+
+.online-users {
+    display: inline-block;
+}
+
+.online-img {
+    max-width: 100px;
+}
+
+/*-------chat page-------*/
+.chatBoxTextarea {
+    background-color: #FC605F;
+    height: 150px;
+    width: 300px;
+}
+
+.chatBoxButton {
+    background-color: #FC605F;
+    width: 300px;
+}
