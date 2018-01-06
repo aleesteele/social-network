@@ -1,5 +1,5 @@
 # Social Network
-A mock-social network for holiday enthusiasts. I built this at Spiced Academy during week 11 of the 12-week course on Javascript-focused web development. Check out a live demo [here](https://aleesteele-social-network.herokuapp.com/) and the rest of my web-development portfolio [here](https://github.com/aleesteele/portfolio).
+A mock-social network for holiday enthusiasts. I built this at Spiced Academy during week 11 of the 12-week course on Javascript-focused web development. Check out the rest of my web-development portfolio [here](https://github.com/aleesteele/portfolio).
 
 ## Technologies
 - **Language**: Javascript
@@ -10,9 +10,11 @@ A mock-social network for holiday enthusiasts. I built this at Spiced Academy du
 ## Description
 This was the final taught project that I built at Spiced Academy. We made the petition in order to learn how to build complex full-stack, single-page applications using the popular React, Redux and Socket.io libraries.
 
-##Preview
+## Preview
 When users arrive to the site, they have the option to either register as a user or login.
 ![welcome](https://github.com/aleesteele/social-network/blob/master/public/preview/welcome.gif)
+Once the user logs in or registers, they are redirected to a home page.
+![home](https://github.com/aleesteele/social-network/blob/master/public/preview/home.png)
 
 ## Improvements
 - Fix socket.io/online users bugs
@@ -23,4 +25,4 @@ When users arrive to the site, they have the option to either register as a user
 - Linkedin: Anne Lee Steele
 
 ## Credits
-- Icon from Xinh Studio of TheNounProject
+- Icons from Xinh Studio, Aya Sofya, iconomania, Mat fine, Manohara of TheNounProject

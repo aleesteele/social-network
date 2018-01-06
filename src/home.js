@@ -8,12 +8,11 @@ export default class Home extends React.Component {
     render() {
         return (
             <center>
+                <br/><br/><br/>
                 <div>
-                    <h1>DAYS UNTIL CHRISTMAS: <b>9</b><br /></h1><br />
-
-                    <h1>Seriously, don't forget to buy them.</h1>
-                </div><br/><br/><br/><br/>
-                <p>santa by Benjamin Zanatta from the Noun Project</p>
+                    <h1 className="home">Have you gotten your Christmas gifts?</h1>
+                    <h2 className="home">Because there are 0 days left!</h2>
+                </div>
             </center>
         )
     }

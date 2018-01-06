@@ -7,7 +7,6 @@ import { getFriendList, acceptFriend, termFriend } from '../../routes/actions';
 class FriendsPage extends React.Component {
     componentDidMount() {
         //race error - could try to render getFriendList before the friend list was loaded?
-        //who knoooows!
         this.props.getFriendList();
     }
     render() {
@@ -18,7 +17,7 @@ class FriendsPage extends React.Component {
             console.log('pending: ', this.props.pending, 'friends', this.props.friends)
             return (
                 <div>
-                    <p>Loading the friends page...</p>
+                    <img src="loading.gif"/>
                 </div>
             )
         }
@@ -33,7 +32,6 @@ class FriendsPage extends React.Component {
                     <button className="button" onClick={() => termFriend(pending.id)}>Reject</button>
                 </div>
             ))
-            // console.log('PENDING FREEEEIIIINNNDDDDS', pendingFriends)
 
             const acceptedFriends = this.props.friends.map(friend => (
                 <div>{friend.firstname} {friend.lastname}

@@ -38,8 +38,7 @@ export default class OtherProfile extends React.Component {
         if (!this.state.otherId) {
             return (
                 <div className="loading">
-                    Everything is loading...<br />
-                    Please be patient.
+                    <img src="loading.gif"/>
                 </div>
             )
         }

@@ -6,6 +6,7 @@
     font-family: 'Source Sans Pro', sans-serif;
     box-sizing: border-box;
     color: #ffffff;
+    text-transform: uppercase;
 }
 
 
@@ -41,8 +42,7 @@ p {
 
 /*-------welcome styling----------*/
 .registerFormInputs, .registerFormButton,
-.loginFormInputs, .loginFormButton,
-.button, .bioTextarea {
+.loginFormInputs, .loginFormButton, .bioTextarea {
     align-items: center;
     align-content: center;
     width: 200px;
@@ -123,6 +123,7 @@ ul, li, .nav {
     display: inline-block;
 }
 
+
 /*everything else*/
 .app-content{
     width: 100%;
@@ -133,6 +134,20 @@ ul, li, .nav {
     height: 100%;
 }
 
+img.nav {
+    max-height: 30px;
+    display: inline;
+}
+
+/*----------home-----------*/
+h1.home {
+    font-size: 200px;
+    line-height: 200px;
+}
+
+h2.home {
+    font-size: 80px;
+}
 
 /*----------prof page----------*/
 .profile {
@@ -144,14 +159,21 @@ ul, li, .nav {
 }
 
 .prof-pic {
-    max-width: 200px;
+    max-width: 600px;
     max-height: 400px;
     display:inline-block;
 }
 
 .bio-in-prof {
     display:inline-block;
-    width: 30%;
+}
+
+h1.bio-in-prof {
+    font-size: 50px;
+}
+
+h2.bio-in-prof {
+    font-size: 40px;
 }
 
 .bioTextarea {
@@ -165,6 +187,12 @@ ul, li, .nav {
     background-color: rgba(107, 107, 107, 0.5);
 }
 
+.button {
+    color: #a4dbc0;
+    font-size: 30px;
+    background-color: #ffffff;
+    border: 0;
+}
 .bio-in-profile {
 
 }

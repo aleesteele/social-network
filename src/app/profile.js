@@ -20,8 +20,7 @@ export default class Profile extends React.Component {
         if (!this.props) {
             return (
                 <div className="loading">
-                    Everything is loading...<br />
-                    Please be patient.
+                    <img src="loading.gif"/>
                 </div>
             )
         }
@@ -38,7 +37,7 @@ export default class Profile extends React.Component {
                         <button onClick={this.props.switchUploaderValue} className="button">Want to change your prof pic?</button>
                         {/* <button onClick={this.props.toggleBioChanger} className="button">Want to edit your bio?</button> */}
 
-                    </div><br/><br/>
+                    </div>
                     <div className="bio-in-prof"><p>
                         <h1>Name:</h1> <h2>{this.props.firstname} {this.props.lastname}</h2><br />
                         <h1>Email:</h1> <h2>{this.props.email}</h2><br />

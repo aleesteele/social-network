@@ -21,7 +21,7 @@ class Online extends React.Component {
         if (!this.props.onlineUsers) {
             return (
                 <div>
-                    <p>Loading the chat page....</p>
+                    <img src="loading.gif"/>
                 </div>
             )
         }

@@ -74,8 +74,7 @@ export default class App extends React.Component {
         if (!this.state.userId) {
             return (
                 <div className="loading">
-                    Everything is loading...<br />
-                    Be patient ok.
+                    <img src="loading.gif"/>
                 </div>
             )
         }
@@ -88,16 +87,16 @@ export default class App extends React.Component {
                         </Link>
                     </div>
                     <div className="navigation">
-                        <h2>DON'T FORGET!!</h2>
+                        <h2>Welcome, {firstname}</h2>
                         <ul className="nav">
-                            <Link to="/online">See who else is online aka other guilty folk</Link><br/>
-                            <Link to="#">Chat with people so you can commiserate in your laziness</Link><br/>
-                            <Link to="/friends">Look at your friends AKA other forgetful ppl</Link>
+                            <Link to="/online"><img src="online.png" className="nav"/></Link>
+                            <Link to="#"><img src="chat.png" className="nav"/></Link>
+                            <Link to="/friends"><img src="friends.png" className="nav"/></Link>
                         </ul>
                     </div>
                     <div className="mini-prof">
                         <Link to="/profile">
-                            <img src="user.png" className="header-icon" />
+                            <img src="profile.png" className="header-icon" />
                         </Link>
                     </div>
                 </div>
