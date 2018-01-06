@@ -180,7 +180,7 @@ app.post('/login', (req, res) => {
                             email: user.email,
                             id: user.id
                         };
-                        console.log('LOGIN || INDEX.jS', req.session.user);
+                        console.log('login || index.js', req.session.user);
                         res.json({ success: true });
                     })
                 } else { res.json({ success: false }); }

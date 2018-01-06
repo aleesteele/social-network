@@ -60,7 +60,7 @@ export default class Login extends React.Component {
                         className="loginFormInputs"/>
                     <br />
                     <input type="submit" value="Submit" className="Submit" onClick={this.handleSubmit} className="loginFormButton"/>
-                </form><br />
+                </form>
                 <div>
                     <p>Need an account? <Link className="link" to="/">Register here.</Link></p>
                 </div>

@@ -123,11 +123,6 @@ export default class App extends React.Component {
                 <div className="app-footer">
 
                 </div>
-                <div className="video-background">
-                    <div className="video-foreground">
-                        <iframe src="https://www.youtube.com/embed/yamiiGk6aSs?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=W0LHTWG-UmQ" frameborder="0" allowfullscreen></iframe>
-                    </div>
-                </div>
             </div>
 
         )

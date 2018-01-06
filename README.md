@@ -9,3 +9,18 @@ A mock-social network for holiday enthusiasts. I built this at Spiced Academy du
 
 ## Description
 This was the final taught project that I built at Spiced Academy. We made the petition in order to learn how to build complex full-stack, single-page applications using the popular React, Redux and Socket.io libraries.
+
+##Preview
+When users arrive to the site, they have the option to either register as a user or login.
+![welcome](https://github.com/aleesteele/social-network/blob/master/public/preview/welcome.gif)
+
+## Improvements
+- Fix socket.io/online users bugs
+- Add chat feature
+
+## Contact
+- Email: aleesteele@gmail.com
+- Linkedin: Anne Lee Steele
+
+## Credits
+- Icon from Xinh Studio of TheNounProject

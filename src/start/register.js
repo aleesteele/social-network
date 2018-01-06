@@ -62,7 +62,7 @@ export default class Register extends React.Component {
                     <label><input type="password" name="password" placeholder="Password" value={this.state.value} onChange={this.handleChange} className="registerFormInputs"/></label>
                     <br />
                     <input type="submit" value="Submit" onClick={this.handleSubmit} className="registerFormButton"/>
-                </form><br /><br />
+                </form>
                 <div>
                     <p>Already have an account? <Link className="link" to="/login">Login here.</Link></p>
                 </div>
