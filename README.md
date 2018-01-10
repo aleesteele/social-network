@@ -15,6 +15,8 @@ When users arrive to the site, they have the option to either register as a user
 ![welcome](https://github.com/aleesteele/social-network/blob/master/public/preview/welcome.gif)
 Once the user logs in or registers, they are redirected to a home page.
 ![home](https://github.com/aleesteele/social-network/blob/master/public/preview/home.png)
+Users have the option to edit their profile, add friends, or see who's online.
+![home](https://github.com/aleesteele/social-network/blob/master/public/preview/features.gif)
 
 ## Improvements
 - Fix socket.io/online users bugs
